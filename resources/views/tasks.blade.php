@@ -1,9 +1,3 @@
-<?php
-
-Route::get('/', function () {
-    return view('tasks');
-});
-
 @extends('layouts.app')
 
 @section('content')
